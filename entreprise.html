@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="container"></div>
+    <div id="menu-container">
+        <table id="table">
+            <thead>
+                <tr id="coll" event="onload">
+                    <th scope="col" class="header">Formation</th>
+                    <th scope="col" class="header">volume horaire</th>
+                    <th scope="col" class="header">prix HT</th>
+                    <th scope="col" class="header">prix Taxe</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Bureautique</th>
+                    <td>35h</td>
+                    <td scope="colum" class="prix_ht">9000</td>
+                    <th scope="colum" class="prix_t"></th>
+                </tr>
+
+                <tr>
+                    <th scope="row">Informatique</th>
+                    <td>35h</td>
+                    <th scope="colum" class="prix_ht">35000</th>
+                    <th scope="colum" class="prix_t"></th>
+                </tr>
+
+                <tr>
+                    <th scope="row">Langues</th>
+                    <td scope="colum">90h</td>
+                    <td colspan="2" class="prix_ht">6500</td>
+                    <th scope="colum" class="prix_t"></th>
+                </tr>
+
+                <tr>
+                    <th scope="row">Management</th>
+                    <td>50h</td>
+                    <th scope="colum" class="prix_ht">7000</th>
+                    <th scope="colum" class="prix_t"></th>
+                </tr>
+
+                <tr>
+                    <th scope="row">Comptabilite</th>
+                    <td>20h</td>
+                    <th scope="colum" class="prix_ht">8000</th>
+                    <th scope="colum" class="prix_t"></th>
+                </tr>
+
+            </tbody>
+
+        </table>
+    </div>
+
+     <input id="formation" type="text">
+    <input id="horaire" type="text">
+    <input id="prix" type="number">
+    <button id="#submit">test</button>
+
+    </br> </br> </br> </br> </br> </br> </br>
+
+    <script src="taxeJQ.js"></script>
+ <button id =button>click</button>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+  
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="taxeJQ.js"></script>
+</head>
+
+<body >
+
+    <div id="image">
+
+    </div>
+
+    <nav class="Menu">
+        <ul id="menu">
+            <li>
+                <a>Formation</a>
+            </li>
+            <li>
+                <a>Data Science</a>
+            </li>
+            <li>
+                <a>Artificiel Intelegence</a>
+            </li>
+            <li>
+                <a>Cloud Computing</a>
+            </li>
+            <li>
+                <a>Softwer Developmet</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="ajouter-formation">
+        <h1>
+            Proposer une formation
+        </h1>
+        <form>
+            <div class="ajouter">
+                <input type="text" id="formation" placeholder="Proposer une formation">
+            </div>
+            <div class="ajouter">
+                <input type="number" placeholder="Le volume horaire">
+            </div>
+            <div class="ajouter">
+                <input type="number" placeholder="Le prix ">
+            </div>
+            <input type="button" value="Ajouter" class="btn">
+
+        </form>
+    </div>
+    <table border=2 id="table" >
+        <thead>
+            <th scope="col">Formation</th>
+            <th scope="col">volume horaire</th>
+            <th scope="col">prix HT</th>
+            <th scope="col">prix Taxe</th>
+            <th scope="col">prix Ttc</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">Bureautique</th>
+                <td >30h</td>
+                <td scope="colum" class="prix_ht">4000</td>
+                <td scope="colum" class="prix_t">20</td>
+                <td scope="colum" class="prix_ttc"></td>
+            </tr>
+    
+            <tr>
+                <th scope="row">Informatique</th>
+                <td >30h</td>
+                <th scope="colum" class="prix_ht">5000</th>
+                <th scope="colum" class="prix_t">20</th>
+                <th scope="colum" class="prix_ttc"></th>
+            </tr>
+    
+            <tr>
+                <th scope="row">Langues</th>
+                <td scope="colum">70h</td>
+                <td  class="prix_ht">6000</td>
+                <td scope="colum" class="prix_t">10</td>
+                <td scope="colum" class="prix_ttc"></td>
+            </tr>
+    
+            <tr>
+                <th scope="row">Management</th>
+                <td >50h</td>
+                <td scope="colum" class="prix_ht">7000</td>
+                <td scope="colum" class="prix_t">10</td>
+                  <td scope="colum" class="prix_ttc"></td>
+            </tr>
+
+            <tr>
+                <th scope="row">Comptabilite</th>
+                <td >30h</td>
+                <td scope="colum" class="prix_ht">8000</td>
+                <td scope="colum" class="prix_t">10</td>
+                  <td scope="colum" class="prix_ttc"></td>
+            </tr>
+        </tbody>
+    </table>
+    y
+    
+
+</body>
+
+</html>
